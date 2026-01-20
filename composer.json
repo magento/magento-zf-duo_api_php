@@ -1,5 +1,5 @@
 {
-    "name": "duosecurity/duo_api_php",
+    "name": "magento/magento-zf-duo_api_php",
     "description": "A PHP implementation of the Duo API.",
     "homepage": "https://duo.com/",
     "support": {
@@ -28,5 +28,8 @@
         "phpunit/phpunit": "~9",
         "php-coveralls/php-coveralls": "dev-master",
         "squizlabs/php_codesniffer": "2.*"
+    },
+    "replace": {
+        "duosecurity/duo_api_php": "^1.2"
     }
 }
